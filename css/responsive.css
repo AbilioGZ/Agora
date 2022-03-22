@@ -250,20 +250,20 @@
         height: 280px;
     }
 
-    div.rotacion{
-        width: 100%;
+     div.rotacion{
+        width: 94%;
     }
 
 
     div.banner{
         height: 200px;
-        width: 100%;
+        width: 92%;
         float: left;
         margin-bottom: 10px;
     }
 
     .video{
-        width: 100%;
+        width: 92%;
     }
 
     .imgNormal{
