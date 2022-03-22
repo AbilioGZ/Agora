@@ -1,0 +1,128 @@
+.articulo{
+    width: 80%;
+}
+
+.aside_top{
+    height: 380px;
+    font-family: 'Genos', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+}
+
+.rotacionRegistro{
+    height: 270px;
+    width: 95%;
+    margin: 0 auto;
+        
+    transition: all 2s linear;
+    transform-style: preserve-3d;
+    transform: rotate(0,1,0,180deg)
+}
+
+img.frontal{
+    height: 270px;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    position: absolute;
+    backface-visibility: hidden;
+    
+}
+
+img.trasera{
+    height: 270px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+.rotacionRegistro:hover{
+    transform: rotate3d(0,1,0,180deg);
+}
+
+/* INICIO ESTILO DEL FORMULARIO*/
+
+.caja{
+    font-family: 'Genos', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 1px;
+}
+
+.caja h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form_register{
+    width: 70%;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form_titulo{
+    background-color: rgb(5, 112, 155);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.input_container{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(179, 177, 177);
+}
+
+.input_48{
+    width: 48%;
+}
+
+.input_60{   
+    width: 60%;
+}
+
+
+.input_100{
+    width: 100%;
+}
+
+.btn_enviar{
+    color: white;
+    border: 1px solid rgb(179, 177, 177);
+    background: linear-gradient(1800deg, rgb(172, 208, 214), 20%, rgb(5, 112, 155));
+    border-radius: 3px;
+}
+
+.btn_enviar:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+
+.asterisco{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* FIN ESTILO DEL FORMULARIO*/

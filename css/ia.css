@@ -1,0 +1,25 @@
+.video{
+    float: left;
+    margin: 15px;
+}
+
+.limpiar{
+    clear: both;
+}
+
+.imgNormal{
+    width: 50%;
+    float: left;
+    margin: 15px;
+}
+
+.greys{
+    filter: grayscale(1) blur(1px);
+
+    transition: all 1s;
+}
+
+.greys:hover{
+    filter: grayscale(0) blur(0px);
+    
+}

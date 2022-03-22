@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ágora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Images/favicon-96x96.png">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/registro.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">
+            Ágora
+        </h1>
+    </header>
+
+    <nav class="menu">
+
+        <input type="checkbox" id="barras-menu"> 
+        <label for="barras-menu" class="img-barra"> <img src="../Images/menu.png" ></label>
+        
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+
+            <li >
+                <a href="../html/registro.html">Registrarse</a>
+            </li>
+
+            <input type="checkbox" id="submenu">
+            <li>
+                <label for="submenu"><p>Artículos</p></label>
+            </li>
+            <li>
+                <ul class="desplegable">
+                    <li><a href="webb.html">James Webb</a></li>
+                    <li><a href="cuantica.html">Informática cuántica</a></li>
+                    <li><a href="ia.html">Inteligencia Artificial</a></li>
+                    <li><a href="fusion.html">Reactores de fusión</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+        
+    </nav>
+
+    <section class="fondo">
+
+        <aside class="aside_top registro">
+            <h2>¿Qué es Ágora?¿Por qué suscribirme?</h2>
+            <div class="rotacionRegistro">
+                <img src="../Images/newsletter.PNG" class="trasera" alt="img1">
+                <img src="../Images/rotateFront.jpg" class="frontal" alt="img2">
+                
+            </div>
+            
+        </aside>
+        
+        <section class="caja">
+            <h1>FORMULARIO DE REGISTRO</h1>
+                <form action="contactar.php" class="form_register" method="post" enctype="multipart/form-data" >
+
+                    <h2 class="form_titulo">CREA UNA CUENTA</h2>
+
+                    <div class="input_container" >
+
+                        
+                            <input type="text" class="input_48" name="nombre" id="nombre" placeholder="Nombre...*" maxlength="20" required>
+                        
+                        
+                            <input type="text" class="input_48" name="apellido" id="apellido" placeholder="Apellido...*" maxlength="30" required>
+                        
+                        
+                            <input type="email" class="input_100" name="email" id="email"  required pattern="{@,}" placeholder="E-mail ...*" required>
+                        
+                        
+                            <input type="password" class="input_100" name="password" id="password" placeholder="Contraseña ...*" required>
+                           
+                            <input type="password" class="input_100" name="password" id="password" placeholder="Repita la contraseña ...*" required>
+
+                            <input type="number" class="input_48" name="edad" id="edad" min="10" max="100" placeholder="Edad ...*" required >
+
+                            <input type="text" class="input_48" name="nombre" id="nombre" placeholder="Teléfono de contacto" maxlength="9" >
+
+                            <input type="submit" class="btn_enviar" value="Registrar">
+
+                            <p ><a href="#">¿Ya tienes una cuenta?</a></p>
+
+                    </div>
+                    
+                    <p class="asterisco">(*) Campo obligatorio. </p>
+
+                </form>
+                
+        </section>   
+
+        <aside class="aside_bot">
+            <h2>Siguenos en nuestras redes sociales</h2>
+            <div>
+                <a href="https://es-es.facebook.com/"><img src="../Images/logoFB.png" alt=""></a>
+            
+                <a href="https://twitter.com/"><img src="../Images/logoTW.png" alt=""></a>
+            
+                <a href="https://telegram.org/"><img src="../Images/logoTEL.png" alt=""></a>
+            </div>
+        </aside>
+       
+    </section>
+
+    <footer class="footer">
+        <a href="../index.html">Inicio</a>
+        <a href="#">Datos legales</a>
+        <a href="#">Política de cookies</a>
+    </footer>
+</body>
+</html>

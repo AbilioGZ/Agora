@@ -1,0 +1,33 @@
+.caja{
+    padding: 1rem 1.5rem;
+}
+
+.articulo{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.articulo h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 1rem 5rem;
+    border-left: 3px inset rgb(46, 148, 161);
+    border-top:3px inset rgb(172, 208, 214); ;
+}
+
+.img_cabe{
+    width: 100%; 
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.articulo h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.articulo p{
+    padding: 1rem;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,286 @@
+/*TABLET*/
+
+@media screen and (max-width: 1280px){
+
+    /* INICIO MENU Y SUBMENU*/
+
+    .menu .img-barra{
+        display: block;
+    }
+    .menu ul{
+        position: absolute;
+        flex-direction: column;
+        width: 70%;
+        margin-left: -70%;
+        background-color:rgb(110, 183, 196);
+        transition: all .5s;
+    }
+
+    .menu li{
+        border-top: 1px solid white;
+    }
+
+    #barras-menu:checked ~ ul{
+        margin: 0;
+    }
+
+    .menu .desplegable{
+        position: absolute;
+        flex-direction: column;
+        width: 70%;
+        margin-left: -70%;
+        background-color:rgb(110, 183, 196);
+    }
+
+    #submenu:checked  ~ * .desplegable{
+        margin-left: 10%;
+    }
+
+    /*FIN MENÚ Y SUBMENU*/
+
+    /* INICIO CUERPO PRINCIPAL, ARTÍCULOS*/
+
+    .fondo{
+        padding-left: 2rem;
+    }
+
+    .caja{
+        padding: 1rem 2rem 3rem 2rem;;
+        margin-right: 1px;
+    }
+
+    .articulo{
+        width: 100%;
+    }
+
+    article.articulo h1{
+        font-size: 2rem;
+        padding: 1rem 3rem;
+    }
+
+    a.titular{
+        font-size: 2rem;
+    }
+
+    article.articulo h2{
+        font-size: 1.5rem;
+    }
+
+    article.articulo p{
+        font-size: 1rem;
+    }
+
+    .aside_top{
+        width: 25%;
+        margin-right: 1rem;
+        height: 300px;
+    }
+
+    .slider ul li a img{
+        height: 270px;
+    }
+
+    .slide_cabe a{
+        font-size: 1.2rem;
+    }
+
+    .aside_bot{
+        margin-right: 1rem;
+        width: 25%;
+        overflow: hidden;
+    }
+    .aside_bot div{
+        width: 88%;
+    }
+
+    .limpiar{
+        clear: both;
+    }
+
+    div.rotacionRegistro img{
+        height: 250px;
+    }
+
+    div.rotacion{
+        width: 100%;
+    }
+
+    
+
+    div.banner{
+        height: 250px;
+    }
+
+    .video{
+        width: 50%;
+    }
+
+    /* FIN CUERPO PRINCIPAL, ARTÍCULOS*/
+
+}
+
+/*MÓVIL*/
+@media screen and (max-width: 820px){
+
+    .header h1.titulo{
+        font-size: 7rem;
+        margin-right: 1rem;
+    }
+
+    /* INICIO MENU Y SUBMENU*/
+
+    .menu .img-barra{
+        display: block;
+    }
+
+    .menu ul{
+        position: absolute;
+        z-index: 1;
+        flex-direction: column;
+        width: 70%;
+        margin-left: -70%;
+        background-color:rgb(110, 183, 196);
+        transition: all .5s;
+    }
+
+    .menu li{
+        border-top: 1px solid white;
+    }
+
+    #barras-menu:checked ~ ul{
+        margin: 0;
+    }
+
+    .menu .desplegable{
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -70%;
+        background-color:rgb(110, 183, 196);
+    }
+    .desplegable li a{
+        padding: 1rem;
+    }
+
+    #submenu:checked  ~ * .desplegable{
+        margin-left: 10%;
+    }
+
+    /*FIN MENÚ Y SUBMENU*/
+
+    /* INICIO CUERPO PRINCIPAL, ARTÍCULOS*/
+
+    .cita{
+        height: fit-content;
+    }
+
+    .fondo{
+        padding-right: 1.3rem;
+    }
+
+    .caja{
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 1rem 0;
+        clear: left;
+    }
+
+    .articulo{
+        width: 100%;
+        padding: 0;
+    }
+
+    article.articulo h1{
+        font-size: 2rem;
+        padding: 1rem .5rem;
+    }
+
+    a.titular{
+        font-size: 1.5rem;
+
+    }
+
+    
+    article.articulo h2{
+        font-size: 1.3rem;
+    }
+
+    article.articulo p{
+        font-size: 1rem;
+    }
+
+
+    .aside_top{
+        margin: 0 auto;
+        float: left;
+        width: 100%;
+        height: 330px;
+    }
+
+    .slider ul li a img{
+        height: 300px;
+    }
+
+    .slide_cabe a{
+        font-size: 1.5rem;
+    }
+
+    .limpiar{
+        clear: both;
+    }
+
+    .aside_bot{
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .aside_bot a img{
+        width: 40px;
+    }
+
+    .aside_bot div{
+        justify-content: center space-around;
+    }
+
+   
+
+    div.rotacionRegistro img{
+        height: 280px;
+    }
+
+    div.rotacion{
+        width: 100%;
+    }
+
+
+    div.banner{
+        height: 200px;
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .imgNormal{
+        width: 90%;
+    }
+
+
+    form.form_register{
+        width: 100%; 
+        margin-left: .5rem;
+    }
+
+   .footer a{
+       font-size: .8rem;
+       margin-left: 4rem;
+   }
+
+    /* FIN CUERPO PRINCIPAL, ARTÍCULOS*/
+}
+
