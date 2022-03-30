@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <atom:link href="https://abiliogz.github.io/Agora/feed/noticias.xml" rel="self" type="application/rss+xml" />
+
+        <title> Canal de RSS de Ágora </title>
+        <link> https://abiliogz.github.io/Agora/feed/noticias.rss </link>
+        <description> Página web sobre noticias de ciencia actuales </description>
+        <language>es</language>
+
+        
+
+
+        <item>
+            <title>El tiempo 24h Santa Cruz de Tenerife </title>
+            <link>https://www.eltiempo.es/santa-cruz-de-tenerife.html </link>
+            <description> Esta página muestra el tiempo en Santa Cruz de Tenerife  </description>
+            <guid>https://www.eltiempo.es/santa-cruz-de-tenerife.html </guid>
+        </item>
+        
+        <item>
+            <title> El telescopio James Webb </title>
+            <link>https://abiliogz.github.io/Agora/html/webb.html </link>
+            <description> Aquí se muestra información sobre el más reciente e importante telescopio 
+            espacial jamás lanzado, el James Webb. En honor al científico con el mismo nombre. </description>
+            <guid>https://abiliogz.github.io/Agora/html/webb.html </guid>
+        </item>
+
+        <item>
+            <title> Nueva precuela de Juego de tronos </title>
+            <link> https://www.xataka.com/cine-y-tv/hbo-anuncia-esperadisima-fecha-para-casa-dragon-precuela-juego-tronos-agosto-2022</link>
+            <description> Noticia en Xataka.com sobre una precuela de GoT que lanzarán próximamente.  </description>
+            <guid> https://www.xataka.com/cine-y-tv/hbo-anuncia-esperadisima-fecha-para-casa-dragon-precuela-juego-tronos-agosto-2022 </guid>
+        </item>
+
+    </channel>
+
+</rss>
