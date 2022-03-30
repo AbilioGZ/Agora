@@ -4,14 +4,14 @@
     <channel>
         <atom:link href="https://abiliogz.github.io/Agora/feed/noticias.xml" rel="self" type="application/rss+xml" />
 
-        <title> Canal de RSS de Ágora </title>
-        <link> https://abiliogz.github.io/Agora/feed/noticias.rss </link>
+        <title>Ágora Web</title>
+        <link> https://abiliogz.github.io/Agora/ </link>
         <description> Página web sobre noticias de ciencia actuales </description>
         <language>es</language>
 
         <image>
             <url>https://abiliogz.github.io/Agora/Images/favicon-96x96.png</url>
-            <title>Ágora Web </title>
+            <title>Ágora Web</title>
             <link> https://abiliogz.github.io/Agora/ </link>
             <width> 32 </width>
             <height> 32 </height>
